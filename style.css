@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    color: white;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+header{
+    background-color: darkgrey;
+    height: 14rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    padding: 10px 5px;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nombre>h2{
+    text-align: right;
+    font-size: 35px;
+}
+img{
+    height: 9rem;
+    width: 9rem;
+}
+
+.menu{
+    background-color: rgb(3, 66, 3);
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+    color: white;
+}
+.menu>a{
+    height: 3rem;
+    size: 30px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+}
+.izq{
+    padding: 10px 0px;
+    padding-right: 30px;
+}
+.izq>div{
+    height: 31rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.izq>div>section{
+    background-color: rgb(240, 232, 131);
+    padding: 15px 25px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+.sections{
+    border-radius: 20px 20px 0px 0px;
+}
+.sectioni{
+    border-radius: 0px 0px 20px 20px;
+}
+.titulo{
+    font-size: 25px;
+}
+.texto{
+    display: flex;
+    padding: 10px 5px;
+    font-size: 20px;
+}
+.texizq{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+.imagen{
+    border: 2px solid black;
+    border-radius: 25px;
+    height: 10rem;
+    width: 10rem;
+}
+
+.der{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    padding: 20px 10px;
+    width: 30rem;
+    align-items: center;
+    border-radius: 25px;
+    background-color: rgb(46, 128, 26);
+}
+.der>div{
+    border: 1px solid bla;
+}
+.derecha>h1{
+    font-size: 30px;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 25px;
+    height: 25rem;
+    width: 18rem;
+}
+.casillas{
+    display: flex;
+    height: 2rem;
+    justify-content:start;
+}
+button{
+    font-size: 25px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+footer{
+    height: 5rem;
+    border-radius: 0px 0px 20px 20px;
+    color: white;
+    background-color: rgb(3, 66, 3);
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+}
+footer>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
